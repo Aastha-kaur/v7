@@ -1,0 +1,8 @@
+# requirements.txt  ── add every import your code relies on
+streamlit>=1.32          # already auto-installed, but pin a version you’ve tested
+pandas>=2.2
+numpy>=1.26
+plotly>=5.22
+altair>=5.2              # if you use st.altair_chart
+reportlab>=4.2           # for PDF invoices
+pillow                   # image handling (receipts)
